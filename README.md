@@ -14,7 +14,7 @@
 For iteration 1, we have created all of the tests you will need - unskip tests one by one (remove or comment out the word `skip` at the top of each test), making each pass before moving on to the next test.  The tests will model the following interaction pattern:
 
 ```ruby
-pry(main)> require './lib/restaurant'
+pry(main)> require '../lib/restaurant'
 #=> true
 
 pry(main)> restaurant = Restaurant.new('10:00', 'Fuel Cafe')
