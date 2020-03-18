@@ -33,7 +33,8 @@ class RestaurantTest < Minitest::Test
 
   #Iteration 2 Tests:
   def test_it_has_closing_time
-    skip
+    skip #trouble converting military time string to integer
+    # & vice versa
     restaurant1 = Restaurant.new('10:00', 'Fuel Cafe')
     restaurant2 = Restaurant.new('16:00', 'Il Poggio')
 

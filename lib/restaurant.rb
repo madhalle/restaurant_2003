@@ -24,7 +24,7 @@ class Restaurant
   end
 
   def open_for_lunch?
-#again, converting opening time to an integer
+#again, converting opening time to an integer & back
     if @opening_time <= 12
       true
     else
